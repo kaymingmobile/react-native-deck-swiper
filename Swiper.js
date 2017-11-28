@@ -639,7 +639,7 @@ class Swiper extends React.Component {
         key={firstCardIndex}
         {...this._panResponder.panHandlers}
       >
-        {renderOverlayLabel}
+        {this.props.renderOverlayLabel && renderOverlayLabel}
         {firstCard}
       </Animated.View>
     )
