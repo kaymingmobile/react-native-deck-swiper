@@ -102,6 +102,7 @@ class Swiper extends React.Component {
 
   initializePanResponder = () => {
     this._panResponder = PanResponder.create({
+      /*
       onStartShouldSetPanResponder: (event, gestureState) => true,
       onMoveShouldSetPanResponder: (event, gestureState) => false,
 
@@ -112,6 +113,7 @@ class Swiper extends React.Component {
       onPanResponderMove: this.onPanResponderMove,
       onPanResponderRelease: this.onPanResponderRelease,
       onPanResponderTerminate: this.onPanResponderRelease
+      */
     })
   }
 
